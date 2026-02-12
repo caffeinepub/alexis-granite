@@ -1,0 +1,23 @@
+{
+  "backend/main.mo": "Motoko backend actor managing user profiles and inquiries with access control and admin/user permission checks.",
+  "feature_evidence.json": "Feature evidence report mapping a branding update feature to affected files and components.",
+  "frontend-file-summaries.txt": "Prewritten summaries describing roles of various frontend React components and configuration files.",
+  "frontend/index.css": "Empty stylesheet placeholder for global frontend styles.",
+  "frontend/index.html": "HTML entry point defining root element and page title using updated Alexis Granite branding.",
+  "frontend/src/App.tsx": "Sets up TanStack Router with Home and Dashboard routes wrapped in AppLayout.",
+  "frontend/src/components/AccessDeniedScreen.tsx": "UI screen informing users they lack permission and offering navigation back to home.",
+  "frontend/src/components/AppLayout.tsx": "Shared page layout providing header, branding, navigation, mobile menu, and authentication button.",
+  "frontend/src/components/InquiryForm.tsx": "Validated inquiry submission form sending user contact and project details to backend.",
+  "frontend/src/components/LoginButton.tsx": "Button handling Internet Identity login/logout with loading feedback and query cache clearing.",
+  "frontend/src/components/ProfileSetupModal.tsx": "Modal prompting newly authenticated users to enter and save their name profile.",
+  "frontend/src/hooks/useActor.ts": "Hook creating and managing authenticated or anonymous backend actors with auto‑refresh on identity changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Provides a React context and provider for managing Internet Identity auth using AuthClient, exposing identity state, login, and logout helpers.",
+  "frontend/src/hooks/useQueries.ts": "Defines React Query hooks for fetching and mutating user profiles and inquiries via an actor API.",
+  "frontend/src/index.css": "Tailwind base styles and custom CSS variables defining light and dark color themes.",
+  "frontend/src/main.tsx": "Initializes the app root, wrapping it with React Query and Internet Identity providers.",
+  "frontend/src/pages/DashboardPage.tsx": "Dashboard page that handles authentication, profile checks, inquiry loading, and admin access control.",
+  "frontend/src/pages/HomePage.tsx": "Home page with marketing sections, images, and an inquiry form trigger.",
+  "frontend/src/utils/urlParams.ts": "Utility functions for reading, persisting, and clearing URL parameters and session storage values.",
+  "frontend/tailwind.config.js": "Configures Tailwind with custom colors, typography, animations, and container settings using CSS variables and plugins.",
+  "project_state.json": "Stores the project’s metadata, existing features, and pending feature requests for the Alexis Granite website."
+}

@@ -1,0 +1,82 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Website for Alexis Granite to collect granite countertop work inquiries, highlighting free estimates and ability to travel anywhere.",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-public-marketing-homepage-for-a-granite-work-business-that-prominently-communicates-1-free-estimates-and-2-travel-anywhere-as-primary-value-propositions",
+      "title": "Create a public marketing homepage for a granite work business that prominently communicates (1) \"Free Estimates\" and (2) \"Travel Anywhere\" as primary value propositions.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-an-inquiry-lead-capture-form-that-collects-granite-work-inquiries-and-submits-them-to-the-backend-for-storage",
+      "title": "Implement an inquiry/lead capture form that collects granite work inquiries and submits them to the backend for storage.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-simple-inquiries-dashboard-page-that-allows-the-site-owner-to-view-submitted-inquiries-protected-by-internet-identity-authentication",
+      "title": "Add a simple inquiries dashboard page that allows the site owner to view submitted inquiries, protected by Internet Identity authentication.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-define-and-apply-a-cohesive-visual-theme-suitable-for-a-granite-stone-craftsmanship-business-typography-spacing-and-a-consistent-color-palette-and-use-it-across-all-pages-and-components",
+      "title": "Define and apply a cohesive visual theme suitable for a granite/stone craftsmanship business (typography, spacing, and a consistent color palette) and use it across all pages and components.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-generated-static-images-to-support-the-homepage-design-and-render-them-from-the-frontend-static-assets-folder",
+      "title": "Add generated static images to support the homepage design and render them from the frontend static assets folder.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-all-user-facing-branding-text-to-use-the-company-name-alexis-granite-instead-of-granite-works-generic-headings-on-the-public-homepage-and-global-layout-while-preserving-the-prominent-free-estimates-and-travel-anywhere-messaging",
+      "title": "Update all user-facing branding text to use the company name \"Alexis Granite\" (instead of \"Granite Works\" / generic headings) on the public homepage and global layout, while preserving the prominent \"Free Estimates\" and \"Travel Anywhere\" messaging.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create a lead-capture website for granite work inquiries (contact/inquiry form).",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Prominently display messaging that estimates are free.",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Prominently display messaging that travel/service area is anywhere.",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Alexis Granite",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

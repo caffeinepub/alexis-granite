@@ -1,0 +1,39 @@
+{
+  "kind": "build_request",
+  "title": "Update branding to Alexis Granite across the site",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-6",
+      "text": "Update all user-facing branding text to use the company name \"Alexis Granite\" (instead of \"Granite Works\" / generic headings) on the public homepage and global layout, while preserving the prominent \"Free Estimates\" and \"Travel Anywhere\" messaging.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "Create a website to collect inquiries about my granite countertop work, my company is called Alexis Granite, please make it noticeable that it is free estimates, and can travel anywhere."
+        ]
+      },
+      "acceptanceCriteria": [
+        "The site header brand text displays \"Alexis Granite\".",
+        "The site footer brand text displays \"Alexis Granite\".",
+        "The homepage hero section clearly identifies the company as \"Alexis Granite\" (e.g., in the main headline or immediately adjacent brand text).",
+        "Existing value proposition callouts remain prominent and still say \"Free Estimates\" and \"Travel Anywhere\".",
+        "The browser tab title (HTML document <title>) reflects \"Alexis Granite\" branding."
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not edit any files under frontend/src/components/ui or any frontend immutablePaths listed in SYSTEM_CONTEXT.",
+    "Keep the existing single-actor Motoko backend architecture unchanged."
+  ],
+  "nonGoals": [
+    "Add a photo gallery/portfolio.",
+    "Change the inquiry form fields, backend inquiry storage, or dashboard access control behavior."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Update site branding to Alexis Granite",
+  "requirements": [
+    {
+      "id": "REQ-6",
+      "summary": "Replace user-facing branding text with \"Alexis Granite\" in global layout and homepage while keeping \"Free Estimates\" and \"Travel Anywhere\" prominent, and update the HTML document title.",
+      "acceptanceCriteria": [
+        "The site header brand text displays \"Alexis Granite\".",
+        "The site footer brand text displays \"Alexis Granite\".",
+        "The homepage hero section clearly identifies the company as \"Alexis Granite\" (e.g., in the main headline or immediately adjacent brand text).",
+        "Existing value proposition callouts remain prominent and still say \"Free Estimates\" and \"Travel Anywhere\".",
+        "The browser tab title (HTML document <title>) reflects \"Alexis Granite\" branding."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/AppLayout.tsx",
+          "operation": "modify",
+          "description": "Update header brand lockup and footer brand text from \"Granite Works\" to \"Alexis Granite\" (including the logo letter if applicable), while keeping the existing footer value proposition text that includes \"Free estimates\" and \"Travel anywhere\"."
+        },
+        {
+          "path": "frontend/src/pages/HomePage.tsx",
+          "operation": "modify",
+          "description": "Update the hero section copy so the company is clearly identified as \"Alexis Granite\" (e.g., in the main headline or adjacent lead text) without reducing prominence or changing wording of the existing \"Free Estimates\" and \"Travel Anywhere\" callouts."
+        },
+        {
+          "path": "frontend/index.html",
+          "operation": "modify",
+          "description": "Update the HTML document <title> to reflect \"Alexis Granite\" branding."
+        }
+      ]
+    }
+  ]
+}

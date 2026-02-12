@@ -1,0 +1,16 @@
+{
+  "frontend/src/App.tsx": "Main application component with TanStack Router setup, defining routes for home and dashboard pages with shared AppLayout wrapper.",
+  "frontend/src/pages/HomePage.tsx": "Public marketing homepage featuring hero section with \"Alexis Granite\" company identification and prominent \"Free Estimates\" and \"Travel Anywhere\" messaging, services overview, inquiry form, and contact information.",
+  "frontend/src/pages/DashboardPage.tsx": "Authenticated dashboard page displaying submitted inquiries in a table format, with login prompt and access control handling.",
+  "frontend/src/components/AppLayout.tsx": "Shared layout component providing header navigation with \"Alexis Granite\" branding (logo with \"A\" initial), menu items, login button, responsive mobile menu, and footer with company name and value propositions.",
+  "frontend/src/components/InquiryForm.tsx": "Contact form component with validation for name, email/phone, and message fields, submitting inquiries to backend with success/error handling.",
+  "frontend/src/components/LoginButton.tsx": "Internet Identity authentication button component handling login/logout with loading states and query cache clearing.",
+  "frontend/src/components/ProfileSetupModal.tsx": "Modal dialog prompting new users to enter their name after first login, saving profile to backend.",
+  "frontend/src/components/AccessDeniedScreen.tsx": "Error screen component displayed when unauthorized users attempt to access restricted dashboard content.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for all backend operations including user profile management, inquiry submission, and inquiry retrieval with proper loading states.",
+  "frontend/index.css": "Global styles with OKLCH-based slate/charcoal color system for both light and dark modes, creating a stone-craft aesthetic appropriate for granite business.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending theme with custom color tokens, typography, and design system settings for consistent granite-themed styling.",
+  "frontend/src/main.tsx": "Application entry point that sets up React Query and Internet Identity providers, importing CSS from the same src directory.",
+  "frontend/src/index.css": "Global styles with OKLCH-based slate/charcoal color system for both light and dark modes, creating a stone-craft aesthetic appropriate for granite business, now located in src directory.",
+  "frontend/index.html": "HTML entry point with updated document title reflecting \"Alexis Granite\" branding and key value propositions."
+}
